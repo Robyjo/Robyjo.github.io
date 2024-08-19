@@ -579,26 +579,6 @@ footer span a:hover{
         height: 350px;
         width: 350px;
     }
-/*start container for cell devices*/    
-    .my-container {
-        background-size: cover; /* Ensure it covers the area */
-        background-position: center; /* Center the image */
-    }
-}
-
-@media (max-width: 768px) {
-    .my-container {
-        background-size: contain; /* Adjust the size for smaller devices */
-        background-position: center;
-    }
-}
-
-@media (max-width: 480px) {
-    .my-container {
-        background-size: cover; /* Ensure it still covers the area */
-        background-position: center;
-        background-attachment: scroll; /* Change attachment to scroll for smoother mobile experience */
-    }
 }
 @media (max-width: 991px) {
     .max-width{
